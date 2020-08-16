@@ -15,7 +15,7 @@ The Flask app consists of an API with eight endpoints:
 
 It includes 3 main roles as well:
 - Casting Assistant
- - view:actors
+ -- view:actors
  - view:movies	
 - Casting Director
  - create:actor / delete:actors
