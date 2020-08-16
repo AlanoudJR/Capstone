@@ -8,7 +8,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://alanoudjrayes@localhost:5432/capstone'
 
 migrate = Migrate(app, db)
-app.config.from_object('config')
 '''
 database_name = "capstone"
 database_path = "postgres://{}/{}".format('localhost:5432', database_name)
