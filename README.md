@@ -15,17 +15,17 @@ The Flask app consists of an API with eight endpoints:
 
 It includes 3 main roles as well:
 - Casting Assistant
- - view:actors
- - view:movies	
+  - view:actors
+  - view:movies	
 - Casting Director
- - create:actor / delete:actors
- - update:actor / update:movie	
- - view:actors	/ view:movies
+  - create:actor / delete:actors
+  - update:actor / update:movie	
+  - view:actors	/ view:movies
 - Executive Producer
- - create:actor / delete:actors
- - update:actor / update:movie	
- - view:actors	/ view:movies
- - create:movie / delete:movies
+  - create:actor / delete:actors
+  - update:actor / update:movie	
+  - view:actors	/ view:movies
+  - create:movie / delete:movies
 
 # Project dependencies, local development and hosting instructions,
 - Flask is a lightweight backend microservices framework. Flask is required to handle requests and responses.
